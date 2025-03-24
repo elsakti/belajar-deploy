@@ -4,7 +4,7 @@ use App\Http\Controllers\ItemController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return "Hello World";
+    return view('welcome');
 });
 
 Route::get('/name/{name}', function ($name) {
